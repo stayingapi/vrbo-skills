@@ -1,6 +1,6 @@
 ---
 name: vrbo-reviews
-description: "Read normalized Vrbo reviews for a listing, with native rating scales preserved. Use when a user wants ratings or guest feedback for a Vrbo place. Powered by ScoutingAPI."
+description: "Read normalized Vrbo reviews for a listing, with native rating scales preserved. Use when a user wants ratings or guest feedback for a listing on Vrbo. Powered by ScoutingAPI."
 version: "1.0.0"
 license: MIT-0
 author: ScoutingAPI

@@ -1,6 +1,6 @@
 ---
 name: vrbo-availability
-description: "Check day-by-day Vrbo availability (the booking calendar) for a known listing over a date window. Use when a user asks whether a Vrbo place is open on specific dates. Powered by ScoutingAPI."
+description: "Check day-by-day Vrbo availability (the booking calendar) for a known listing over a date window. Use when a user asks whether a listing on Vrbo is open on specific dates. Powered by ScoutingAPI."
 version: "1.0.0"
 license: MIT-0
 author: ScoutingAPI
