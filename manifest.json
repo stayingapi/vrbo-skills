@@ -1,0 +1,41 @@
+{
+  "name": "vrbo-skills",
+  "version": "1.0.0",
+  "description": "Agent skills for Vrbo data (search, availability, prices, cross-OTA comparison, reviews) via ScoutingAPI.",
+  "author": "ScoutingAPI",
+  "homepage": "https://scoutingapi.com",
+  "repository": "https://github.com/scoutingapi/vrbo-skills",
+  "license": "MIT-0",
+  "skills": [
+    {
+      "name": "vrbo-search",
+      "path": "skills/vrbo-search",
+      "description": "Search live Vrbo stays by location, dates and occupancy, returned in one unified schema alongside every other booking platform. Use when a user wants to find Vrbo listings. Powered by the ScoutingAPI REST API / MCP server."
+    },
+    {
+      "name": "vrbo-availability",
+      "path": "skills/vrbo-availability",
+      "description": "Check day-by-day Vrbo availability (the booking calendar) for a known listing over a date window. Use when a user asks whether a Vrbo place is open on specific dates. Powered by ScoutingAPI."
+    },
+    {
+      "name": "vrbo-reviews",
+      "path": "skills/vrbo-reviews",
+      "description": "Read normalized Vrbo reviews for a listing, with native rating scales preserved. Use when a user wants ratings or guest feedback for a Vrbo place. Powered by ScoutingAPI."
+    },
+    {
+      "name": "vrbo-prices",
+      "path": "skills/vrbo-prices",
+      "description": "Get a real Vrbo price quote for a listing and dates, and compare that property across booking platforms for the cheapest rate. Use for \"how much is this Vrbo place\" or \"is it cheaper elsewhere\". Powered by ScoutingAPI."
+    },
+    {
+      "name": "vrbo-full",
+      "path": "skills/vrbo-full",
+      "description": "Complete Vrbo toolkit — search, availability, listing detail, price, cross-OTA price comparison and reviews, all in one unified schema. Install this when an agent needs broad Vrbo coverage. Powered by ScoutingAPI."
+    },
+    {
+      "name": "vrbo-rentals",
+      "path": "skills/vrbo-rentals",
+      "description": "Search Vrbo vacation rentals by location, dates and occupancy in one unified schema. Use for vacation-rental discovery on Vrbo. Powered by ScoutingAPI."
+    }
+  ]
+}

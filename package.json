@@ -1,0 +1,27 @@
+{
+  "name": "vrbo-skills",
+  "version": "1.0.0",
+  "description": "Agent skills for Vrbo data via ScoutingAPI.",
+  "homepage": "https://github.com/scoutingapi/vrbo-skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scoutingapi/vrbo-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scoutingapi/vrbo-skills/issues"
+  },
+  "author": "ScoutingAPI",
+  "license": "MIT-0",
+  "keywords": [
+    "vrbo",
+    "vrbo-api",
+    "vrbo-skills",
+    "agent-skills",
+    "skills",
+    "mcp",
+    "ai-agents",
+    "claude",
+    "travel",
+    "accommodation"
+  ]
+}
