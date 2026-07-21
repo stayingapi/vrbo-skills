@@ -2,9 +2,9 @@
 
 # Vrbo Skills for AI Agents
 
-**Agent skills for Vrbo data** — search, availability, prices, cross-OTA price comparison and reviews, from any AI agent, over the [ScoutingAPI](https://scoutingapi.com) REST API and hosted MCP server.
+**Agent skills for Vrbo data** — search, availability, prices, cross-OTA price comparison and reviews, from any AI agent, over the [StayingAPI](https://stayingapi.com) REST API and hosted MCP server.
 
-Works with **OpenClaw** (ClawdBot/Moltbot), **Hermes Agent**, **Claude Code**, **Cursor**, **Cline**, **Codex**, and any agent that supports the [Agent Skills](https://skills.sh) format. Free tier, no credit card, and a `scout_test_` sandbox that returns fixtures at zero cost.
+Works with **OpenClaw** (ClawdBot/Moltbot), **Hermes Agent**, **Claude Code**, **Cursor**, **Cline**, **Codex**, and any agent that supports the [Agent Skills](https://skills.sh) format. Free tier, no credit card, and a `stay_test_` sandbox that returns fixtures at zero cost.
 
 ## Install
 
@@ -17,26 +17,26 @@ npx clawhub@latest install vrbo-full
 
 **Hermes Agent:**
 ```bash
-hermes skills install skills-sh/scoutingapi/vrbo-skills/skills/vrbo-full
+hermes skills install skills-sh/stayingapi/vrbo-skills/skills/vrbo-full
 ```
 
 **Claude Code / Cursor / Cline / Codex:**
 ```bash
-npx skills add scoutingapi/vrbo-skills --skill vrbo-full
+npx skills add stayingapi/vrbo-skills --skill vrbo-full
 ```
 
 **All skills at once:**
 ```bash
-npx skills add scoutingapi/vrbo-skills
+npx skills add stayingapi/vrbo-skills
 ```
 
 **Manual (git clone):**
 ```bash
-git clone https://github.com/scoutingapi/vrbo-skills.git
+git clone https://github.com/stayingapi/vrbo-skills.git
 cp -r vrbo-skills/skills/vrbo-full ~/.claude/skills/
 ```
 
-> The `npx skills add scoutingapi/vrbo-skills` route reads this GitHub repo directly and works today. ClawHub / Hermes directory installs resolve once the skills are indexed in those directories.
+> The `npx skills add stayingapi/vrbo-skills` route reads this GitHub repo directly and works today. ClawHub / Hermes directory installs resolve once the skills are indexed in those directories.
 
 ## Skills in this repo
 
@@ -53,42 +53,42 @@ Install `vrbo-full` for broad coverage; install a focused skill when you want a 
 
 ## Authentication
 
-Set `SCOUTINGAPI_KEY` to your ScoutingAPI key. Free key (no card) at <https://scoutingapi.com/signup>; a `scout_test_` sandbox key returns deterministic fixtures at zero cost. See [`skills/vrbo-full/references/auth-setup.md`](skills/vrbo-full/references/auth-setup.md).
+Set `STAYINGAPI_KEY` to your StayingAPI key. Free key (no card) at <https://stayingapi.com/signup>; a `stay_test_` sandbox key returns deterministic fixtures at zero cost. See [`skills/vrbo-full/references/auth-setup.md`](skills/vrbo-full/references/auth-setup.md).
 
-## Why ScoutingAPI
+## Why StayingAPI
 
-One integration covers every platform: Vrbo data comes back in the same unified schema as Airbnb, Booking.com, Vrbo and Google Hotels, and the price-compare tool returns a computed min and median across OTAs. Number-free on credits — failed/empty calls are never billed; costs are on the [pricing page](https://scoutingapi.com/pricing).
+One integration covers every platform: Vrbo data comes back in the same unified schema as Airbnb, Booking.com, Vrbo and Google Hotels, and the price-compare tool returns a computed min and median across OTAs. Number-free on credits — failed/empty calls are never billed; costs are on the [pricing page](https://stayingapi.com/pricing).
 
 ## Source
 
-- API reference: <https://api.scoutingapi.com/openapi.json>
-- Hosted MCP server: <https://mcp.scoutingapi.com/mcp>
-- Docs: <https://scoutingapi.com/docs>
+- API reference: <https://api.stayingapi.com/openapi.json>
+- Hosted MCP server: <https://mcp.stayingapi.com/mcp>
+- Docs: <https://stayingapi.com/docs>
 
 ---
 
 ## Related repositories
 
-Part of the ScoutingAPI open resource set — one unified accommodation-data API across Airbnb, Booking.com, Vrbo and Google Hotels, with a REST API, a native MCP server, and importable workflows.
+Part of the StayingAPI open resource set — one unified accommodation-data API across Airbnb, Booking.com, Vrbo and Google Hotels, with a REST API, a native MCP server, and importable workflows.
 
-- [airbnb-api](https://github.com/scoutingapi/airbnb-api)
-- [booking-com-api](https://github.com/scoutingapi/booking-com-api)
-- [vrbo-api](https://github.com/scoutingapi/vrbo-api)
-- [google-hotels-api](https://github.com/scoutingapi/google-hotels-api)
-- [hotel-api](https://github.com/scoutingapi/hotel-api)
-- [travel-api](https://github.com/scoutingapi/travel-api)
-- [travel-skills](https://github.com/scoutingapi/travel-skills)
-- [hotel-mcp](https://github.com/scoutingapi/hotel-mcp)
-- [travel-workflows](https://github.com/scoutingapi/travel-workflows)
-- [airbnb-skills](https://github.com/scoutingapi/airbnb-skills)
-- [booking-com-skills](https://github.com/scoutingapi/booking-com-skills)
-- [google-hotels-skills](https://github.com/scoutingapi/google-hotels-skills)
+- [airbnb-api](https://github.com/stayingapi/airbnb-api)
+- [booking-com-api](https://github.com/stayingapi/booking-com-api)
+- [vrbo-api](https://github.com/stayingapi/vrbo-api)
+- [google-hotels-api](https://github.com/stayingapi/google-hotels-api)
+- [hotel-api](https://github.com/stayingapi/hotel-api)
+- [travel-api](https://github.com/stayingapi/travel-api)
+- [travel-skills](https://github.com/stayingapi/travel-skills)
+- [hotel-mcp](https://github.com/stayingapi/hotel-mcp)
+- [travel-workflows](https://github.com/stayingapi/travel-workflows)
+- [airbnb-skills](https://github.com/stayingapi/airbnb-skills)
+- [booking-com-skills](https://github.com/stayingapi/booking-com-skills)
+- [google-hotels-skills](https://github.com/stayingapi/google-hotels-skills)
 
-- Website: <https://scoutingapi.com> · Docs: <https://scoutingapi.com/docs> · Status: <https://status.scoutingapi.com>
+- Website: <https://stayingapi.com> · Docs: <https://stayingapi.com/docs> · Status: <https://status.stayingapi.com>
 
 ---
 
-**Get your free key — no card → <https://scoutingapi.com/signup>** · [Docs](https://scoutingapi.com/docs) · [Pricing](https://scoutingapi.com/pricing) · [Status](https://status.scoutingapi.com)
+**Get your free key — no card → <https://stayingapi.com/signup>** · [Docs](https://stayingapi.com/docs) · [Pricing](https://stayingapi.com/pricing) · [Status](https://status.stayingapi.com)
 
-Built with [ScoutingAPI](https://scoutingapi.com) — trusted, ToS-clean, real-time accommodation data across Airbnb, Booking.com, Vrbo and Google Hotels, normalized to one schema. REST + a native MCP server.
-> ScoutingAPI is an independent service and is not affiliated with or endorsed by Vrbo. Vrbo is a trademark of its respective owner.
+Built with [StayingAPI](https://stayingapi.com) — trusted, ToS-clean, real-time accommodation data across Airbnb, Booking.com, Vrbo and Google Hotels, normalized to one schema. REST + a native MCP server.
+> StayingAPI is an independent service and is not affiliated with or endorsed by Vrbo. Vrbo is a trademark of its respective owner.
