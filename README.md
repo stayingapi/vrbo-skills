@@ -12,7 +12,7 @@ Most users want **vrbo-full** — it covers search, availability, listing, price
 
 **OpenClaw (ClawdBot/Moltbot), via ClawHub:**
 ```bash
-npx clawhub@latest install vrbo-full
+npx clawhub@latest install @stayingapi/vrbo-full
 ```
 
 **Hermes Agent:**
@@ -36,7 +36,7 @@ git clone https://github.com/stayingapi/vrbo-skills.git
 cp -r vrbo-skills/skills/vrbo-full ~/.claude/skills/
 ```
 
-> The `npx skills add stayingapi/vrbo-skills` route reads this GitHub repo directly and works today. ClawHub / Hermes directory installs resolve once the skills are indexed in those directories.
+> The `npx skills add stayingapi/vrbo-skills` route reads this GitHub repo directly and works today. The ClawHub listings are published and pending directory review — that command works as soon as they are released. Hermes installs resolve once the skills are indexed there. ClawHub slugs are not globally unique, so always install ours owner-scoped (`@stayingapi/…`).
 
 ## Skills in this repo
 
