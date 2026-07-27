@@ -17,7 +17,7 @@ tags: ["vrbo", "vrbo-api", "search", "vacation-rental", "travel", "accommodation
 metadata: {"openclaw":{"emoji":"🔍","requires":{"env":["STAYINGAPI_KEY"]},"primaryEnv":"STAYINGAPI_KEY","homepage":"https://stayingapi.com"},"hermes":{"tags":["vrbo","vrbo-api","search","vacation-rental","travel","accommodation"],"category":"integrations"}}
 ---
 
-# Vrbo search
+# Vrbo Search
 
 Search live Vrbo stays via [StayingAPI](https://stayingapi.com) — one call, the same unified schema you use for Airbnb, Booking.com, Vrbo and Google Hotels.
 

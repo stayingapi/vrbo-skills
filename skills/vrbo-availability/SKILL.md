@@ -17,7 +17,7 @@ tags: ["vrbo", "vrbo-api", "availability", "calendar", "travel", "accommodation"
 metadata: {"openclaw":{"emoji":"📅","requires":{"env":["STAYINGAPI_KEY"]},"primaryEnv":"STAYINGAPI_KEY","homepage":"https://stayingapi.com"},"hermes":{"tags":["vrbo","vrbo-api","availability","calendar","travel","accommodation"],"category":"integrations"}}
 ---
 
-# Vrbo availability
+# Vrbo Availability
 
 Check day-by-day availability for a known Vrbo listing — the booking calendar over any date window.
 

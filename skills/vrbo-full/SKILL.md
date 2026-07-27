@@ -17,7 +17,7 @@ tags: ["vrbo", "vrbo-api", "search", "availability", "reviews", "price-compariso
 metadata: {"openclaw":{"emoji":"🧰","requires":{"env":["STAYINGAPI_KEY"]},"primaryEnv":"STAYINGAPI_KEY","homepage":"https://stayingapi.com"},"hermes":{"tags":["vrbo","vrbo-api","search","availability","reviews","price-comparison","travel","accommodation"],"category":"integrations"}}
 ---
 
-# Vrbo — complete toolkit
+# Vrbo — Complete Toolkit
 
 The everything skill for Vrbo: search, availability, listing detail, price, cross-OTA price comparison and reviews — one key, one schema. Install the focused skills instead when you want a minimal tool surface.
 

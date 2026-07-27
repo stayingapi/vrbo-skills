@@ -42,12 +42,12 @@ cp -r vrbo-skills/skills/vrbo-full ~/.claude/skills/
 
 | Skill | Purpose |
 |---|---|
-| [`vrbo-search`](skills/vrbo-search) | Vrbo search |
-| [`vrbo-availability`](skills/vrbo-availability) | Vrbo availability |
-| [`vrbo-reviews`](skills/vrbo-reviews) | Vrbo reviews |
-| [`vrbo-prices`](skills/vrbo-prices) | Vrbo prices & cross-OTA comparison |
-| [`vrbo-full`](skills/vrbo-full) | Vrbo — complete toolkit |
-| [`vrbo-rentals`](skills/vrbo-rentals) | Vrbo vacation rentals |
+| [`vrbo-search`](skills/vrbo-search) | Vrbo Search |
+| [`vrbo-availability`](skills/vrbo-availability) | Vrbo Availability |
+| [`vrbo-reviews`](skills/vrbo-reviews) | Vrbo Reviews |
+| [`vrbo-prices`](skills/vrbo-prices) | Vrbo Prices & Cross-OTA Comparison |
+| [`vrbo-full`](skills/vrbo-full) | Vrbo — Complete Toolkit |
+| [`vrbo-rentals`](skills/vrbo-rentals) | Vrbo Vacation Rentals |
 
 Install `vrbo-full` for broad coverage; install a focused skill when you want a minimal tool surface.
 

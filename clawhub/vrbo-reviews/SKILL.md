@@ -17,7 +17,7 @@ tags: ["vrbo", "vrbo-api", "reviews", "ratings", "travel", "accommodation"]
 metadata: {"openclaw":{"emoji":"⭐","requires":{"env":["STAYINGAPI_KEY"]},"primaryEnv":"STAYINGAPI_KEY","homepage":"https://stayingapi.com"},"hermes":{"tags":["vrbo","vrbo-api","reviews","ratings","travel","accommodation"],"category":"integrations"}}
 ---
 
-# Vrbo reviews
+# Vrbo Reviews
 
 Read normalized Vrbo reviews for a listing — the same review shape across every platform.
 

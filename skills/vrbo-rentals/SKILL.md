@@ -17,7 +17,7 @@ tags: ["vrbo", "vacation-rental", "rentals", "short-term-rental", "travel"]
 metadata: {"openclaw":{"emoji":"🏖️","requires":{"env":["STAYINGAPI_KEY"]},"primaryEnv":"STAYINGAPI_KEY","homepage":"https://stayingapi.com"},"hermes":{"tags":["vrbo","vacation-rental","rentals","short-term-rental","travel"],"category":"integrations"}}
 ---
 
-# Vrbo vacation rentals
+# Vrbo Vacation Rentals
 
 Vacation-rental discovery on Vrbo — search live rentals in the unified schema alongside Airbnb, Booking.com and Google Hotels.
 
