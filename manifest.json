@@ -25,7 +25,7 @@
     {
       "name": "vrbo-prices",
       "path": "skills/vrbo-prices",
-      "description": "Get a real Vrbo price quote for a listing and dates, and compare that property across booking platforms for the cheapest rate. Use for \"how much is this Vrbo place\" or \"is it cheaper elsewhere\". Powered by StayingAPI."
+      "description": "Get a real Vrbo price quote for a listing and dates, then compare that property against the offers StayingAPI can resolve for it to find the cheapest rate. Use for \"how much is this Vrbo place\" or \"is it cheaper elsewhere\". Powered by StayingAPI."
     },
     {
       "name": "vrbo-full",
